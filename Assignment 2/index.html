@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Assignment 2 </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <button class="btn" id="load"> Load Data </button>
+    <br> <br>
+
+    <div id="divison">
+
+    <table class="table_data">
+
+        <tr>
+          <th> First Name </th>
+          <th> Middle Name </th>
+          <th> Last Name </th>
+          <th> Email </th>
+          <th> Phone Number </th>
+          <th> Role </th>
+          <th> Address </th>
+        </tr>
+
+        <tr id="row1">
+          <td id="fname_row1"> </td>
+          <td id="mname_row1"> </td>
+          <td id="lname_row1"> </td>
+          <td id="email_row1"> </td>
+          <td id="phone_row1"> </td>
+          <td id="role_row1"> </td>
+          <td id="address_row1"> </td>
+          <td>
+          <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+          <input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+          <input type="button" id="delete_button1" value="Delete" class="delete" onclick="delete_row('1')">
+          <input type="button" id="cancel_button1" value="Cancel" class="cancel">
+          </td>
+        </tr>
+
+        <tr id="row2">
+          <td id="fname_row2"> </td>
+          <td id="mname_row2"> </td>
+          <td id="lname_row2"> </td>
+          <td id="email_row2"> </td>
+          <td id="phone_row2"> </td>
+          <td id="role_row2">  </td>
+          <td id="address_row2"> </td>
+          <td>
+          <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+          <input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+          <input type="button" id="delete_button2" value="Delete" class="delete" onclick="delete_row('2')">
+          <input type="button" id="cancel_button2" value="Cancel" class="cancel">
+          </td>
+        </tr>
+
+        <tr id="row3">
+          <td id="fname_row3"> </td>
+          <td id="mname_row3"> </td>
+          <td id="lname_row3"> </td>
+          <td id="email_row3"> </td>
+          <td id="phone_row3"> </td>
+          <td id="role_row3"> </td>
+          <td id="address_row3"> </td>
+          <td>
+          <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+          <input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+          <input type="button" id="delete_button3" value="Delete" class="delete" onclick="delete_row('3')">
+          <input type="button" id="cancel_button3" value="Cancel" class="cancel">
+          </td>
+        </tr>
+
+    </table>
+
+    </div>
+
+    <script type="text/javascript" src="index.js" charset="utf-8"> </script>
+  </body>
+</html>
